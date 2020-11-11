@@ -29,6 +29,9 @@ bandit6@bandit:/home$ cd bandit0
 readme
 bandit6@bandit:/home/bandit0$ cat readme
 cat: readme: Permission denied
+```
+The old man was right. We don't have permission to read files.
+```
 bandit6@bandit:/home/bandit0$ cd
 bandit6@bandit: find / -user bandit7 -group bandit6 -size 33c
 find: ‘/root’: Permission denied
@@ -91,6 +94,10 @@ find: ‘/var/lib/polkit-1’: Permission denied
 find: ‘/var/log’: Permission denied
 find: ‘/var/cache/apt/archives/partial’: Permission denied
 find: ‘/var/cache/ldconfig’: Permission denied
+````
+we only have one file to get access that is our flag. But what if there is too much file that we have permission?
+that is a question for next level ;)
+```
 bandit6@bandit:~$ cat /var/lib/dpkg/info/bandit7.password
 HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
 ```

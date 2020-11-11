@@ -20,6 +20,9 @@ bandit4@bandit:~$ ls
 bandit4@bandit:~$ -file00  -file01  -file02  -file03  -file04  -file05  -file06  -file07  -file08  -file09
 bandit4@bandit:~$ cat ./-file00
 �/`2ғ�%��rL~5�g��� �����
+````
+Ok, so there is 10 file one of them is human readable.
+```
 bandit4@bandit:~$ file ./-file*
 ./-file00: data
 ./-file01: data
