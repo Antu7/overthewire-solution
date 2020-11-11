@@ -1,39 +1,35 @@
-# bandit6
+# bandit7
 
-link-> https://overthewire.org/wargames/bandit/bandit6.html
+link-> https://overthewire.org/wargames/bandit/bandit7.html
 
 ## LEVEL GOAL
 
-The password for the next level is stored somewhere on the server and has all of the following properties:
-
-owned by user bandit7
-owned by group bandit6
-33 bytes in size
+The password for the next level is stored in the file data.txt next to the word millionth
 
 Commands you may need to solve this level
-ls, cd, cat, file, du, find
+grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xx7
 
 ## SOLUTION
 
 ```
-antu@root:~/overthewire-bandit/bandit6$ ssh bandit6@bandit.labs.overthewire.org -p 2220
-bandit6@bandit.labs.overthewire.org's password: DXjZPULLxYr17uwoI01bNLQbtFemEgo7
-bandit6@bandit:~$ ls
-bandit6@bandit:~$ cd home
-bandit6@bandit:/home$ ls
-bandit6@bandit:~$ bandit0   bandit12  bandit16  bandit2   bandit23  bandit27      bandit29      bandit30-git  bandit33  bandit7
+antu@root:~/overthewire-bandit/bandit7$ ssh bandit7@bandit.labs.overthewire.org -p 2220
+bandit7@bandit.labs.overthewire.org's password: HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
+bandit7@bandit:~$ ls
+bandit7@bandit:~$ cd home
+bandit7@bandit:/home$ ls
+bandit7@bandit:~$ bandit0   bandit12  bandit16  bandit2   bandit23  bandit27      bandit29      bandit30-git  bandit33  bandit7
 bandit1   bandit13  bandit17  bandit20  bandit24  bandit27-git  bandit29-git  bandit31      bandit4   bandit8
 bandit10  bandit14  bandit18  bandit21  bandit25  bandit28      bandit3       bandit31-git  bandit5   bandit9
-bandit11  bandit15  bandit19  bandit22  bandit26  bandit28-git  bandit30      bandit32      bandit6
-bandit6@bandit:/home$ cd bandit0
+bandit11  bandit15  bandit19  bandit22  bandit26  bandit28-git  bandit30      bandit32      bandit7
+bandit7@bandit:/home$ cd bandit0
 readme
-bandit6@bandit:/home/bandit0$ cat readme
+bandit7@bandit:/home/bandit0$ cat readme
 cat: readme: Permission denied
 ```
 The old man was right. We don't have permission to read files.
 ```
-bandit6@bandit:/home/bandit0$ cd
-bandit6@bandit: find / -user bandit7 -group bandit6 -size 33c
+bandit7@bandit:/home/bandit0$ cd
+bandit7@bandit: find / -user bandit7 -group bandit7 -size 33c
 find: ‘/root’: Permission denied
 find: ‘/home/bandit28-git’: Permission denied
 find: ‘/home/bandit30-git’: Permission denied
@@ -98,7 +94,7 @@ find: ‘/var/cache/ldconfig’: Permission denied
 we only have one file to get access that is our flag. But what if there is too much file that we have permission?
 that is a question for next level ;)
 ```
-bandit6@bandit:~$ cat /var/lib/dpkg/info/bandit7.password
+bandit7@bandit:~$ cat /var/lib/dpkg/info/bandit7.password
 HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
 ```
 

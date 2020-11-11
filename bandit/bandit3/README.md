@@ -13,7 +13,7 @@ ls, cd, cat, file, du, find
 
 ```
 antu@root:~/overthewire-bandit/bandit3$ ssh bandit3@bandit.labs.overthewire.org -p 2220
-bandit0@bandit.labs.overthewire.org's password: UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
+bandit3@bandit.labs.overthewire.org's password: UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
 bandit3@bandit:~$ ls
 inhere
 bandit3@bandit:~$ cd inhere

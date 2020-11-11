@@ -11,7 +11,7 @@ The password for the next level is stored in a file called - located in the home
 
 ```
 antu@root:~/overthewire-bandit/bandit1$ ssh bandit1@bandit.labs.overthewire.org -p 2220
-bandit0@bandit.labs.overthewire.org's password: boJ9jbbUNNfktd78OOpsqOltutMc3MY1
+bandit1@bandit.labs.overthewire.org's password: boJ9jbbUNNfktd78OOpsqOltutMc3MY1
 bandit1@bandit:~$ ls
 -
 ```
