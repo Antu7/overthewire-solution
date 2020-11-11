@@ -1,4 +1,4 @@
-# Bandit0
+# Bandit2
 
 link-> https://overthewire.org/wargames/bandit/bandit2.html
 
@@ -13,6 +13,7 @@ ls, cd, cat, file, du, find
 
 ```
 antu@root:~/overthewire-bandit/bandit2$ ssh bandit2@bandit.labs.overthewire.org -p 2220
+bandit0@bandit.labs.overthewire.org's password: CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
 bandit2@bandit:~$ ls
 spaces in this filename
 bandit2@bandit:~$ cat spaces\ in\ this\ filename
