@@ -17,4 +17,4 @@ So the password for the next level is `iX6IOfmpN7AYOQGPwtn3fXpbaJVJcHfq`
 
 ## Note
 
-What is burp suite? please google it.
+What is burp suite? please google it
