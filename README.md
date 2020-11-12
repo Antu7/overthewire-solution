@@ -7,3 +7,7 @@ This repository consists of solultions for CTF challenges found on overthewire.o
 http://overthewire.org/wargames/bandit/
 
 
+## Natas
+
+https://overthewire.org/wargames/natas/
+
