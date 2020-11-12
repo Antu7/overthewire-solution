@@ -4,9 +4,10 @@ link-> https://overthewire.org/wargames/natas/natas2.html
 
 ## LEVEL GOAL
 
-Username: natas2
-Password: ZluruAthQk7Q2MqmDeTiUij2ZvWy2mBi
-URL:      http://natas2.natas.labs.overthewire.org
+Username: natas2<br>
+Password: ZluruAthQk7Q2MqmDeTiUij2ZvWy2mBi<br>
+URL:      http://natas2.natas.labs.overthewire.org<br>
+
 ## SOLUTION
 
 After login we see
