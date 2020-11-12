@@ -7,6 +7,7 @@ link-> https://overthewire.org/wargames/natas/natas6.html
 Username: natas6 <br>
 Password: aGoY4q2Dc6MgDq4oL4YtoKtyAg9PeHa1 <br>
 URL:      http://natas6.natas.labs.overthewire.org <br>
+
 ## SOLUTION
 
 Alright, for this level we are to enter a secret, and the query should return the password… hopefully! Let ‘s go ahead and click View sourcedode and we should get the below PHP script.
